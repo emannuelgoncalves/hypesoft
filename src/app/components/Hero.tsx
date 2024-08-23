@@ -11,7 +11,7 @@ const Hero: React.FC<HeroProps> = ({ name, role, description }) => {
     <section className="flex flex-col w-full l justify-end	">
       <h1 className="flex overflow-hidden flex-col pr-1.5 pb-2 max-w-full text-7xl leading-[98px] w-[758px] max-md:text-4xl max-md:leading-[54px]">
         <span className="text-white">
-          Hello I'm John a<span className="text-violet-700"> {role}.</span>
+          Hello I m John a<span className="text-violet-700"> {role}.</span>
         </span>
         <div className="flex shrink-0 -mt-11 max-w-full h-9 bg-violet-700 bg-opacity-10 w-[594px]" />
       </h1>

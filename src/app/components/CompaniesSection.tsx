@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import React from "react";
 
@@ -17,20 +16,17 @@ const CompaniesSection: React.FC<CompaniesSectionProps> = ({
   logos,
 }) => {
   return (
-    <section className="my-[100px] flex flex-col md:flex-row  pt-5 my-auto text-3xl " >
-      <div className="max-w-[320px]" >
+    <section className="my-[100px] grid grid-cols-2  pt-5 my-auto text-3xl ">
+      <div>
         <p className="text-white">
           I worked with{" "}
           <span className="text-pink-500">{companiesWorked}+</span> Companies
           all over the World.
         </p>
       </div>
-      <div className="flex flex-row gap-5" >
+      <div className="flex flex-row gap-5">
         {logos.map((logo, index) => (
-          <div
-            key={index}
-            className=" p-5 bg-white rounded-lg"
-          >
+          <div key={index} className="flex gap-2.5  p-5 bg-white rounded-lg">
             <Image
               loading="lazy"
               src={logo.src}

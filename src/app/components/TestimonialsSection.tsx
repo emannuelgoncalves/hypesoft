@@ -58,11 +58,11 @@ const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
                 />
               </div>
               <blockquote className="relative mt-2 mr-7 text-3xl leading-[51px] max-md:mr-2.5 l">
-                "If you're looking for someone who will challenge your UX/UI
-                thinking and really cut to the core of what's important for
+                If you re looking for someone who will challenge your UX/UI
+                thinking and really cut to the core of what s important for
                 users, then Jesse is your man. On top of that, he brings a level
-                of enthusiasm to the craft that's energizing for everyone who
-                works with him."
+                of enthusiasm to the craft that s energizing for everyone who
+                works with him.
               </blockquote>
             </div>
           </div>
