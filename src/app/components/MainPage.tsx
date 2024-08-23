@@ -1,5 +1,4 @@
 import React from "react";
-import Layout from "./Layout";
 import Hero from "./Hero";
 import SocialLinks from "./SocialLinks";
 import AboutSection from "./AboutSection";
